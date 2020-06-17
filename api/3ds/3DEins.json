@@ -1,0 +1,30 @@
+{
+	"Download CIA": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "3DEins.cia",
+			"output": "/3DEins.cia",
+			"message": "Downloading 3DEins..."
+		},
+		{
+			"type": "installCia",
+			"file": "/3DEins.cia",
+			"message": "Installing 3DEins..."
+		},
+		{
+			"type": "deleteFile",
+			"file": "/3DEins.cia",
+			"message": "Deleting unneeded file..."
+		}
+	],
+	"Download 3DSX": [
+		{
+			"type": "downloadRelease",
+			"repo": "Universal-Team/3DEins",
+			"file": "3DEins.3dsx",
+			"output": "/3ds/3DEins.3dsx",
+			"message": "Downloading 3DEins..."
+		}
+	]
+}
